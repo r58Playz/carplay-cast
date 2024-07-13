@@ -3,8 +3,6 @@ TARGET = iphone:clang:15.6:15.6
 
 include $(THEOS)/makefiles/common.mk
 
-THEOS_PACKAGE_SCHEME=rootless
-
 BUNDLE_NAME = carplayenableprefs
 
 carplayenableprefs_FILES = $(wildcard *.m) ../src/CRPreferences.mm
