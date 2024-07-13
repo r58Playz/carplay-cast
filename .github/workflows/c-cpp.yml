@@ -17,7 +17,7 @@ jobs:
           uses: actions/checkout@master
           with:
             repository: theos/theos
-            ref: d84bb676f68ce73a72e5897944af394fb06eb13c
+            ref: 487d9bd0113173ade74693b625d871e42df6df1c
             path: theos
             submodules: recursive
         - name: Download SDKs
